@@ -1,0 +1,99 @@
+[
+    {
+        "title_en": "What does CSS stand for?",
+        "title_ar": "ماذا تعني CSS",
+
+        "choice1_en": "Colorful Style Sheets",
+        "choice1_ar": "Colorful Style Sheets",
+
+        "choice2_en": "Creative Style Sheets",
+        "choice2_ar": "Creative Style Sheets",
+
+        "choice3_en": "Cascading Style Sheets",
+        "choice3_ar": "Cascading Style Sheets",
+   
+        "choice4_en": "Computer Style Sheets",
+        "choice4_ar": "Computer Style Sheets",
+
+        "answer_en": "Cascading Style Sheets",
+        "answer_ar": "Cascading Style Sheets"
+    },
+    {
+        "title_en": "What is the correct HTML for referring to an external style sheet?",
+        "title_ar": "ما هو HTML الصحيح للإشارة إلى ورقة أنماط خارجية؟",
+
+        "choice1_en": "<style src='mystyle.css'>",
+        "choice1_ar": "<style src='mystyle.css'>",
+
+        "choice2_en": "<link rel='stylesheet' type='text/css' href='mystyle.css'>",
+        "choice2_ar": "<link rel='stylesheet' type='text/css' href='mystyle.css'>",
+
+        "choice3_en": "<stylesheet>mystyle.css</stylesheet>",
+        "choice3_ar": "<stylesheet>mystyle.css</stylesheet>",
+
+        "choice4_en": "<script>mystyle.css</script>",
+        "choice4_ar": "<script>mystyle.css</script>",
+
+        "answer_en": "<link rel='stylesheet' type='text/css' href='mystyle.css'>",
+        "answer_ar":"<link rel='stylesheet' type='text/css' href='mystyle.css'>"
+    },
+    {
+        "title_en": "Where in an HTML document is the correct place to refer to an external style sheet?",
+        "title_ar": "أين المكان الصحيح في مستند HTML للإشارة إلى ورقة أنماط خارجية؟",
+
+        "choice1_en": "At the end of the document",
+        "choice1_ar": "في نهاية المستند",
+
+        "choice2_en": "In the <head> section",
+        "choice2_ar": "في قسم <head>",
+
+        "choice3_en": "In the <body> section",
+        "choice3_ar": "في قسم <body>",
+
+        "choice4_en": "In the <script> section",
+        "choice4_ar": "في قسم <script>",
+
+        "answer_en": "In the <head> section",
+        "answer_ar": "في قسم <head>"
+    },
+    {
+        "title_en": "Which HTML tag is used to define an internal style sheet?",
+        "title_ar": "ما هي علامة HTML المستخدمة لتحديد ورقة أنماط داخلية؟",
+
+        "choice1_en": "<style>",
+        "choice1_ar": "<style>",
+
+        "choice2_en": "<script>",
+        "choice2_ar": "<script>",
+
+        "choice3_en": "<css>",
+        "choice3_ar": "<css>",
+
+        "choice4_en": "<pr>",
+        "choice4_ar": "<pr>",
+
+        "answer_en":  "<style>",
+        "answer_ar": "<style>"
+    },
+    {
+        "title_en": "Which HTML attribute is used to define inline styles?",
+        "title_ar": "ما هي سمة HTML المستخدمة لتحديد الأنماط المضمنة؟",
+
+        "choice1_en": "class",
+        "choice1_ar": "class",
+
+        "choice2_en": "style",
+        "choice2_ar": "style",
+
+        "choice3_en": "styles",
+        "choice3_ar": "styles",
+
+        
+        "choice4_en": "font",
+        "choice4_ar":  "font",
+
+        "answer_en":  "style",
+        "answer_ar":  "style"
+    }
+
+]

@@ -1,0 +1,99 @@
+[
+    {
+        "title_en": "What does HTML stand for?",
+        "title_ar": "ماذا تعني HTML؟",
+
+        "choice1_en": "Hyperlinks and Text Markup Language",
+        "choice1_ar": "Hyperlinks and Text Markup Language",
+
+        "choice2_en": "Home Text Markup Language",
+        "choice2_ar": "Home Text Markup Language",
+
+        "choice3_en": "Home Tool Markup Language",
+        "choice3_ar": "Home Tool Markup Language",
+   
+        "choice4_en": "Home Table Markup Language",
+        "choice4_ar": "Home Table Markup Language",
+
+        "answer_en": "Hyperlinks and Text Markup Language",
+        "answer_ar": "Hyperlinks and Text Markup Language"
+    },
+    {
+        "title_en": "Who is making the Web standards?",
+        "title_ar": "من الذي يصنع معايير الويب؟",
+
+        "choice1_en": "The World Wide Web Consortium",
+        "choice1_ar": "اتحاد شبكة الويب العالمية",
+
+        "choice2_en": "Microsoft",
+        "choice2_ar": "مايكروسوفت",
+
+        "choice3_en": "Mozilla",
+        "choice3_ar": "موزيلا",
+
+        "choice4_en": "Google",
+        "choice4_ar": "جوجل",
+
+        "answer_en":"The World Wide Web Consortium",
+        "answer_ar": "اتحاد شبكة الويب العالمية"
+    },
+    {
+        "title_en": "Choose the correct HTML element for the largest heading:",
+        "title_ar": "اختر عنصر HTML الصحيح للعنوان الأكبر:",
+
+        "choice1_en": "<head>",
+        "choice1_ar": "<head>",
+
+        "choice2_en": "<h1>",
+        "choice2_ar": "<h1>",
+
+        "choice3_en": "<heading>",
+        "choice3_ar": "<heading>",
+
+        "choice4_en": "<h6>",
+        "choice4_ar": "<h6>",
+
+        "answer_en": "<h1>",
+        "answer_ar": "<h1>"
+    },
+    {
+        "title_en": "What is the correct HTML element for inserting a line break?",
+        "title_ar": "ما هو عنصر HTML الصحيح لإدراج فاصل أسطر؟",
+
+        "choice1_en": "<lb>",
+        "choice1_ar": "<lb>",
+
+        "choice2_en": "<break>",
+        "choice2_ar": "<break>",
+
+        "choice3_en": "<br>",
+        "choice3_ar": "<br>",
+
+        "choice4_en": "<pr>",
+        "choice4_ar": "<pr>",
+
+        "answer_en":  "<br>",
+        "answer_ar":  "<br>"
+    },
+    {
+        "title_en": "What is the correct HTML for adding a background color?",
+        "title_ar": "ما هو HTML الصحيح لإضافة لون الخلفية؟",
+
+        "choice1_en": "<body style='background-color:yellow;'>",
+        "choice1_ar":" <body style='background-color:yellow;'>",
+
+        "choice2_en": "<body bg=\"yellow\">",
+        "choice2_ar":  "<body bg=\"yellow\">",
+
+        "choice3_en": "<background>yellow</background>",
+        "choice3_ar": "<background>yellow</background>",
+
+        
+        "choice4_en": "<color>yellow</color>",
+        "choice4_ar": "<color>yellow</color>",
+
+        "answer_en":  "<body style='background-color:yellow;'>",
+        "answer_ar":  "<body style='background-color:yellow;'>"
+    }
+
+]

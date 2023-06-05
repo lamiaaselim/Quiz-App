@@ -1,0 +1,97 @@
+[
+    {
+        "title_en": "How can you get the type of arguments passed to a function?",
+        "title_ar": "كيف يمكنك تمرير نوع الوسيطات إلى دالة؟" ,
+
+        "choice1_en": "using typeof operator",
+        "choice1_ar": "بواسطه typeof operator",
+
+        "choice2_en": "using getType function",
+        "choice2_ar": "بواسطه getType function",
+
+        "choice3_en": "Both of the above.",
+        "choice3_ar": "جميع الي فوق",
+
+        "choice4_en": "None of the above.",
+        "choice4_ar": "جميع الاجابات السابقه خاطئه",
+
+        "answer_en": "using typeof operator",
+        "answer_ar":  "بواسطه typeof operator"
+    },
+    {
+        "title_en": "Which built-in method calls a function for each element in the array?",
+        "title_ar": "ما هي الطريقة المضمنة التي تستدعي وظيفة لكل عنصر في المصفوفة؟",
+
+        "choice1_en": "while()",
+        "choice1_ar": "while()",
+
+        "choice2_en": "loop()",
+        "choice2_ar": "loop()",
+
+        "choice3_en": "forEach()",
+        "choice3_ar": "forEach()",
+
+        "choice4_en": "forEach()",
+        "choice4_ar": "forEach()",
+
+        "answer_en":  "forEach()",
+        "answer_ar":  "forEach()"
+    },
+    {
+        "title_en": "Which built-in method returns the calling string value converted to lower case?",
+        "title_ar": "أي طريقة مضمنة تُرجع قيمة سلسلة الاستدعاء محولة إلى حالة صغيرة؟",
+
+        "choice1_en": "toLowerCase()",
+        "choice1_ar": "toLowerCase()",
+
+        "choice2_en": "toLower()",
+        "choice2_ar": "toLower()",
+
+        "choice3_en": "changeCase(case)",
+        "choice3_ar": "changeCase(case)",
+
+        "choice4_en": "None of the above.",
+        "choice4_ar": "جميع الاجابات السابقه خاطئه",
+
+        "answer_en": "toLowerCase()",
+        "answer_ar": "toLowerCase()"
+    },
+    {
+        "title_en": "Which of the following jQuery method get the text contents of an element?",
+        "title_ar": "أي طريقة jQuery التالية تحصل على محتويات نص عنصر؟" ,
+
+        "choice1_en": "text( )",
+        "choice1_ar": "text( )",
+
+        "choice2_en": "getText( )",
+        "choice2_ar": "getText( )",
+
+        "choice3_en": "getContent( )",
+        "choice3_ar": "getContent( )",
+
+        "choice4_en": "None of the above.",
+        "choice4_ar":  "None of the above.",
+
+        "answer_en":  "text( )",
+        "answer_ar":  "text( )"
+    },
+    {
+        "title_en": "Which of the following jQuery method adds the previous selection to the current selection?",
+        "title_ar": "أي من أساليب jQuery التالية يضيف التحديد السابق إلى التحديد الحالي؟" ,
+
+        "choice1_en": "add( selector )",
+        "choice1_ar": "add( selector )",
+
+        "choice2_en": "andSelf( )",
+        "choice2_ar": "andSelf( )",
+
+        "choice3_en": "append(selector)",
+        "choice3_ar":  "append(selector)",
+
+        "choice4_en": "None of the above.",
+        "choice4_ar": "جميع الاجابات السابقه خاطئه",
+
+        "answer_en": "andSelf( )",
+        "answer_ar": "andSelf( )"
+    }
+]

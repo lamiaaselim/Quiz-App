@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8" />
+   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <title>Quiz Application - Dashboard</title>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <link href="lib/bootstrap/css/bootstrap.css" rel="stylesheet">
+   <link href="css/style.css" rel="stylesheet">
+   <style>
+      @media screen and (min-width:992px) {
+         .col-lg-3 {
+            width: 23% !important;
+         }
+      }
+   </style>
+</head>
+
+<body>
+   <div class="se-pre-con"></div>
+   <!-- Start Nav -->
+   <nav class="navbar navbar-expand-sm">
+      <div class="container">
+         <a class="navbar-brand" href="index.html">
+            <img src="images/logo2.png" alt="Avatar Logo" style="width:150px;" class="img-nav">
+         </a>
+         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+            <span class="navbar-toggler-icon"></span>
+         </button>
+         <div class="collapse navbar-collapse" id="mynavbar">
+            <ul class="navbar-nav me-auto">
+               <li class="nav-item">
+                  <a class="nav-link" href="dashboard.html" data-i18n="quizes">Quizes</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="about.html" data-i18n="about">About</a>
+               </li>
+            </ul>
+            <form class="d-flex">
+               <a class="btn btn-outline-dark" href="login.html" role="button" id="LogInNav"
+                  style="margin: 5%; padding: 7px 30px;" data-i18n="login">LogIn</a>
+               <a class="btn btn-outline-dark" href="signup.html" role="button" style="margin: 5%; padding: 7px 30px;"
+                  data-i18n="signup" id="SignUpNav">SignUp</a>
+            </form>
+         </div>
+      </div>
+   </nav>
+   <!--  End Nav  -->
+   <div class="container">
+      <select class="p-1 mt-2" id="languageList">
+         <option value="en" data-i18n="english" selected>English</option>
+         <option value="ar" data-i18n="arabic">Arabic</option>
+      </select>
+   </div>
+
+
+   <main>
+      <div class="container-fliud">
+         <div class="container mt-3 ">
+            <p class="h5 f-2 fw-bold"><span data-i18n="hello">Hello</span> <span id="uName" class="uName"></span> <span
+                  data-i18n="wellcomeDashboard"></span></p>
+            <hr>
+            <div class="row justify-content-start p-0">
+               <div class="col-12 d-sm-block d-md-none col-md-4">
+                  <div class="text-center">
+                     <img src="images/dashboard.png" alt="" class="img-fluid" width="250px">
+                  </div>
+               </div>
+
+               <div class="col-12 col-md-8 m">
+                  <p class="h5 f-2 text-danger fw-bold font-monospace" data-i18n="theQuiz"></p>
+                  <p style="text-align:justify" class="mt-2 mb-2" data-i18n="getLorem"></p>
+               </div>
+
+               <div class="col-12 col-md-4 d-none d-md-block">
+                  <div class="text-center">
+                     <img src="images/dashboard.png" alt="" class="img-fluid" width="250px">
+                  </div>
+               </div>
+            </div>
+         </div>
+
+         <div class="container mt-5">
+            <div class="row justify-content-start p-0">
+               <!--HTML Quiz-->
+               <div class="col-12 col-md-6 col-lg-3 mb-4">
+                  <div class="card p-0">
+                     <img src="images/icons8-html-5.svg">
+                     <div class="card-body">
+                        <h5 class="card-title">HTML</h5>
+                        <p class="card-text"><span data-i18n="p2Quizzes"></span> HTML</p>
+                        <p class="card-text" data-i18n="Goodluck"><i class="fa fa-smile-o" aria-hidden="true"></i></p>
+                        <a href="quiz.html?category=html" class="btn btn-outline-danger" data-i18n="startQuiz"></a>
+                     </div>
+                  </div>
+               </div>
+               <!--END HTML-->
+               <!--CSS Quiz-->
+               <div class="col-12 col-md-6 col-lg-3 mb-4">
+                  <div class="card p-0">
+                     <img src="images/icons8-css3.svg">
+                     <div class="card-body">
+                        <h5 class="card-title">CSS</h5>
+                        <p class="card-text"><span data-i18n="p2Quizzes"></span> CSS</p>
+                        <p class="card-text" data-i18n="Goodluck"><i class="fa fa-smile-o" aria-hidden="true"></i></p>
+                        <a href="quiz.html?category=css" class="btn btn-outline-danger" data-i18n="startQuiz"></a>
+                     </div>
+                  </div>
+               </div>
+               <!--END CSS-->
+               <!--JS Quiz-->
+               <div class="col-12 col-md-6 col-lg-3 mb-4">
+                  <div class="card p-0">
+                     <img src="images/icons8-javascript (2).svg">
+
+                     <div class="card-body">
+                        <h5 class="card-title">JS</h5>
+                        <p class="card-text"><span data-i18n="p2Quizzes"></span> JS</p>
+                        <p class="card-text" data-i18n="Goodluck"><i class="fa fa-smile-o" aria-hidden="true"></i></p>
+                        <a href="quiz.html?category=js" class="btn btn-outline-danger" data-i18n="startQuiz"></a>
+                     </div>
+                  </div>
+               </div>
+               <!--END JS-->
+               <!--SQL Quiz-->
+               <div class="col-12 col-md-6 col-lg-3 mb-4">
+                  <div class="card p-0">
+                     <img src="images/icons8-jquery.svg">
+                     <div class="card-body">
+                        <h5 class="card-title">jQuery</h5>
+                        <p class="card-text"><span data-i18n="p2Quizzes"></span>jQuery</p>
+                        <p class="card-text" data-i18n="Goodluck"><i class="fa fa-smile-o" aria-hidden="true"></i></p>
+                        <a href="quiz.html?category=jQuery" class="btn btn-outline-danger" data-i18n="startQuiz"></a>
+                     </div>
+                  </div>
+               </div>
+               <!--END SQL-->
+            </div>
+         </div>
+      </div>
+
+      <br>
+      <br>
+   </main>
+   <!-- JavaScript Libraries -->
+   <script src="lib/jquery/jquery-3.6.4.min.js"></script>
+   <script src="lib/bootstrap/js/bootstrap.bundle.js"></script>
+   <script type="module" src="js/multilingual.js"></script>
+   <!-- <script src="js/theme.js"></script> -->
+
+   <!-- <script src="js/dashboard.js"></script> -->
+   <script src="js/logut.js"></script>
+
+
+</body>
+
+</html>

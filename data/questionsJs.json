@@ -1,0 +1,59 @@
+[
+    {
+        "title_en": "Inside which HTML element do we put the JavaScript?",
+        "title_ar": "داخل أي عنصر HTML نضع JavaScript؟",
+
+        "choice1_en": "<scripting>",
+        "choice1_ar": "<scripting>",
+
+        "choice2_en": "<javascript>",
+        "choice2_ar": "<javascript>",
+
+        "choice3_en": "<js>",
+        "choice3_ar": "<js>",
+
+        "choice4_en": "<script>",
+        "choice4_ar": "<script>",
+
+        "answer_en": "<script src='xxx.js'>",
+        "answer_ar": "الاجابه"
+    },
+    {
+        "title_en": "Where is the correct place to insert a JavaScript?",
+        "title_ar": "أين هو المكان الصحيح لإدراج JavaScript؟",
+
+        "choice1_en": "Both the <head> section and the <body> section are correct",
+        "choice1_ar": "<head> و <body>",
+
+        "choice2_en": "The <head> section",
+        "choice2_ar": "في <head>",
+
+        "choice3_en": "The <body> section",
+        "choice3_ar": "في <body>",
+
+        "choice4_en": "The <div> section",
+        "choice4_ar": "في <div>",
+
+        "answer_en":  "Both the <head> section and the <body> section are correct",
+        "answer_ar":  "<head> و <body>"
+    },
+    {
+        "title_en": "What is the correct syntax for referring to an external script called 'xxx.js'?",
+        "title_ar": "ما الصيغة الصحيحة للإشارة إلى برنامج نصي خارجي يسمى 'xxx.js'؟",
+
+        "choice1_en": "<script href='xxx.js'>",
+        "choice1_ar": "<script href='xxx.js'>",
+
+        "choice2_en": "<script name='xxx.js'>",
+        "choice2_ar": "<script name='xxx.js'>",
+
+        "choice3_en": "<script src='xxx.js'>",
+        "choice3_ar": "<script src='xxx.js'>",
+
+        "choice4_en": "<script file='xxx.js'>",
+        "choice4_ar":  "<script file='xxx.js'>",
+
+        "answer_en": "<script src='xxx.js'>",
+        "answer_ar": "<script src='xxx.js'>"
+    }
+]

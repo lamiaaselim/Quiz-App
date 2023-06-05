@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz Application - Quiz</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="lib/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="css/quiz.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="se-pre-con"></div>
+
+    <!-- Start Nav -->
+    <nav class="navbar navbar-expand-sm">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="images/logo2.png" alt="Avatar Logo" style="width:150px;" class="img-nav">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mynavbar">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="dashboard.html" data-i18n="quizes">Quizes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html" data-i18n="about">About</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <a class="btn btn-outline-dark mybtn" href="login.html" role="button" id="LogInNav"
+                        style="margin: 5%; padding: 7px 30px;" data-i18n="login">LogIn</a>
+                    <a class="btn btn-outline-dark mybtn" href="signup.html" role="button"
+                        style="margin: 5%; padding: 7px 30px;" data-i18n="signup" id="SignUpNav">SignUp</a>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!--  End Nav  -->
+    <div class="container">
+        <div class=" col-2 col-sm-2 col-md-2 col-lg-2 col-xl-1">
+            <select class="p-1 mt-2 form-select" aria-label="Default select example" id="languageList">
+                <option value="en" data-i18n="english" selected>English</option>
+                <option value="ar" data-i18n="arabic">Arabic</option>
+            </select>
+        </div>
+        <!-- <button id="darkBtn">Dark Mode</button> -->
+    </div>
+
+    <div class="container">
+        <div class="quiz-app">
+            <button id="darkBtn">Dark Mode</button>
+            <div class="quiz-info">
+                <div class="category">
+                    <span data-i18n="category">Catogary</span>: <span id="categoryName"></span>
+                </div>
+                <div class="count">
+                    <span data-i18n="question_count"></span>
+                    <span></span>
+                </div>
+            </div>
+            <div class="quiz-area"></div>
+            <div class="answers-area">
+            </div>
+            <!-- <a class="btn btn-outline-danger" href="signup.html" role="button" style="padding: 7px 40px;"
+            data-i18n="signup" id="SignUpHome">SignUp</a> -->
+
+            <button class="submit btn btn-outline-danger" data-i18n="submit">Submit Answers</button>
+            <div class="bullets">
+                <div class="spans">
+                </div>
+                <div class="countdown">
+                </div>
+            </div>
+            <div class="results">
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript Libraries -->
+    <script src="lib/jquery/jquery-3.6.4.min.js"></script>
+    <script src="lib/bootstrap/js/bootstrap.bundle.js"></script>
+    <script type="module" src="js/multilingual.js"></script>
+    <!-- <script src="js/theme.js"></script> -->
+
+    <script src="js/quiz.js"></script>
+    <script src="js/logut.js"></script>
+
+</body>
+
+</html>
